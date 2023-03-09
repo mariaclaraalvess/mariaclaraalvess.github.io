@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+  }
+  
+  .login-form {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    background-image: url('https://raw.githubusercontent.com/mariaclaraalvess/imagens/main/chuv.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  form input[type="email"], form input[type="password"] {
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black; /* adiciona uma linha preta na parte inferior */
+  }
+  
+  
+  form label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+  }
+  a {
+    color: black;
+  }
+  

@@ -1,0 +1,58 @@
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-form">
+        <div class="container">
+            <div class="box">
+            <form method="post" action="verifica.php">
+                <h1 style="white-space: nowrap;">Registro pluviômetrico</h1>
+                <input id="email" type="email" placeholder="Email" name="email" required>
+                <input id="senha" type="password" placeholder="Senha"  name="senha" required>
+                <input id="login" class="button" type="submit" value="Enviar">
+                <a href="">Esqueceu a senha?</a>
+                <a href="cadastro.html">Não tem Login? Cadastre-se</a>
+
+<!--imagem logo-->
+                    <div class="logo"></div>
+                    <div class="box">
+                        <form method="post" action="verifica.php">
+                            <!-- rest of the form code here -->
+                        </form>
+                    </div>
+                </div>
+                
+                <style>
+                    .container {
+                        position: relative;
+                    }
+                    
+                    .logo {
+       position: absolute;
+        top: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+         background-image: url("https://raw.githubusercontent.com/mariaclaraalvess/imagens/main/chuv.png");
+         background-repeat: no-repeat;
+         background-size: contain;
+          width: 200px;
+         height: 100px;
+         margin-bottom: 20px;
+}
+                </style>
+                
+            </form>
+        </div>
+            </div>
+    </div>
+</body>
+</html>
